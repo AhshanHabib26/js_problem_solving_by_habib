@@ -1,4 +1,4 @@
-// Get Largest Number in Array
+// Get Largest Name in Array
 
 function bestFriend(arr){
     let largeName = ''
@@ -10,6 +10,6 @@ function bestFriend(arr){
     return largeName
 }
 
-let friendName =  [ 'Mohammad Ahshan Habib', 'Abu Yousuf', 'Nory Alom Rony', 'Hasan Ahmad Foyez']
+let friendName =  [ 'Mohammad Ahshan Habib', 'Abu Yousuf', 'Nore Alom Rony', 'Hasan Ahmad Foyez']
 let getLargeName = bestFriend(friendName)
 console.log(getLargeName)
