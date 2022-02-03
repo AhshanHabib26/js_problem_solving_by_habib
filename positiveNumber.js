@@ -6,14 +6,11 @@ function positiveNumber(arr){
         if( arr[i] >= 0){
             positiveNum.push(arr[i])
         }
-        else{
-            break
-        }
     }
     return positiveNum
 }
 
-let arr = [ 2, 3, 56, 8, 45, -23, 96, -12, -2, 32];
+let arr = [ 2, 3, 56, 8, 45, -23, 96, -12, -2, 32, 15, -5, -8, 98, 26, -13];
  console.log( positiveNumber(arr))
 
 
